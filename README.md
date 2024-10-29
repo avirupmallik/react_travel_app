@@ -1,5 +1,9 @@
 # Getting Started with Create React App
+
+<head>
+<title>travel.com homepage</title>
 <meta name="google-site-verification" content="ca4MuT7fjKWE_8SMgJUJKIYHTpFc-w7frwKmrA4YT-c" />
+</head>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
