@@ -1,0 +1,122 @@
+:root {
+  --mainOpacity: rgba(0, 0, 0, 0.55);
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-color {
+  background-color: #0e76a8;
+}
+
+.homepage-carousel-title {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.book-div {
+  width: 480px;
+  height: 384px;
+}
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("Images/darjeeling.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.topbar {
+  background-color: #3e90c3;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-link a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(33, 49, 141);
+  color: white;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  position: relative;
+  top: 50px; /* Push down to avoid overlap with topbar */
+  height: calc(100vh - 60px); /* Full height minus topbar height */
+  color: white;
+}
